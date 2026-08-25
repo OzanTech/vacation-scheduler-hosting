@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vacation Scheduler</title>
+<style>
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    max-width: 720px;
+    margin: 60px auto;
+    padding: 0 24px;
+    color: #2c2c2c;
+    line-height: 1.6;
+  }
+  h1 {
+    color: #4B0082;
+  }
+  .download-button {
+    display: inline-block;
+    background-color: #6A4FA3;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  .download-button:hover {
+    background-color: #563d8a;
+  }
+  .feature-list {
+    margin-top: 24px;
+  }
+  footer {
+    margin-top: 60px;
+    font-size: 14px;
+    color: #777;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Vacation Scheduler</h1>
+  <p>
+    Vacation Scheduler is a native Android application for planning trips and excursions.
+    Users can create vacations, attach excursions to each one, set date-based reminders,
+    search and generate reports across their trip data, and secure the app behind a PIN —
+    all backed by a local Room/SQLite database.
+  </p>
+
+  <a class="download-button" href="app-release.apk" download>Download Signed APK</a>
+
+  <p><strong>Minimum Android version:</strong> Android 8.0 (Oreo, API 26) or higher.</p>
+
+  <div class="feature-list">
+    <h2>Key Features</h2>
+    <ul>
+      <li>Create, edit, and delete vacations and excursions</li>
+      <li>Search vacations by title</li>
+      <li>Combined vacation and excursion report with date-time stamp</li>
+      <li>PIN-protected access with securely hashed credentials</li>
+      <li>Database-backed, expandable excursion type selection</li>
+      <li>Scheduled local notifications for upcoming vacations and excursions</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>Developed by Ozan Cifci &mdash; WGU D424 Software Engineering Capstone</p>
+  </footer>
+
+</body>
+</html>
